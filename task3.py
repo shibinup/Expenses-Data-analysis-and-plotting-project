@@ -38,3 +38,4 @@ print("--------------------------")
 # 6. Remove duplicate rows
 df = df.drop_duplicates()
 print(df)
+df.to_csv("expenses_cleaned.csv", index=False)
